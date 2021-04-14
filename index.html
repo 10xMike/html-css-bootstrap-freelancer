@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -19,44 +21,44 @@
 <body>
     <header id="site_header">
         <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">PORTFOLIO <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                CONTACT
-                            </a>
-                        </li>
-                    </ul>
+        <div class=" text-uppercase">
+            <nav class=" navbar navbar-expand-lg navbar-dark bg_darkblue">
+                <div class="container">
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">PORTFOLIO <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    CONTACT
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
             </nav>
         </div>
-        </div>
-        </div>
-
         <!-- /Navbar -->
 
     </header>
 
 
 
-    <main>
+    <main id="site_main">
         <!-- Main Logo -->
-        <div class="container-fluid text-center dbg1">
+        <div class="container text-center bg-white">
             <h1>START BOOTSTRAP</h1>
             <div class="row">
                 <div class="col-12"></div>
@@ -64,7 +66,25 @@
         </div>
         <!-- /Main Logo -->
         <!-- Portfolio -->
-        <div class="container-fluid text-center dbg2">
+        <section class="portfolio bg-white">Portfolio
+            <div class="container">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="about bg_green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, amet.
+        </section>
+        <section class="contacts bg-white">Lorem ipsum dolor sit.</section>
+
+        <div class="container text-center dbg2">
             <h1>PORTFOLIO</h1>
             <div class="row">
                 <div class="col-4"></div>
@@ -79,7 +99,7 @@
         </div>
         <!-- /Portfolio -->
         <!-- About -->
-        <div class="container-fluid text-center dbg1">
+        <div class="container text-center dbg1">
             <h1>ABOUT</h1>
             <div class="row">
                 <div class="col-6"></div>
@@ -88,7 +108,7 @@
         </div>
         <!-- /About -->
         <!-- Contact Me -->
-        <div class="container-fluid text-center dbg2">
+        <div class="container text-center dbg2">
             <h1>CONTACT ME</h1>
             <form>
                 <div class="form-group">
@@ -111,15 +131,17 @@
         <!-- /Contact me -->
     </main>
     <!-- Footer -->
-    <footer>
-        <div class="container-fluid text-center dbg1">
+    <footer id="site_footer">
+        <div class="footer_top bg_blue">
             <div class="row">
                 <div class="col-4">LOCATION</div>
                 <div class="col-4">AROUND THE WEB</div>
                 <div class="col-4">ABOUT FREELANCER</div>
             </div>
-            <div class="row">
-                <div class="col-12">Copyright &copy;</div>
+            <div class="footer_bottom bg_darkblue">
+                <div class="row">
+                    <div class="col-12">Copyright &copy;</div>
+                </div>
             </div>
         </div>
     </footer>

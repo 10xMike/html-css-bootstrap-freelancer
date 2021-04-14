@@ -6,10 +6,25 @@
 
 .dbg1{
     height: 200px;
-    background-color: #004aff;
 }
 
 .dbg2{
     height: 190px;
-    background-color: #5249b5;
+}
+
+.dbg nav{
+    height: 80px;
+}
+.dbg .heroimage{
+    height: 300px;
+}
+.dbg section{
+    height: 400px;
+}
+
+.bg_darkblue{
+    background-color: #2C3E50;
+}
+.bg_green{
+
 }
