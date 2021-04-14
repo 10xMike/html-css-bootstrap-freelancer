@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.dbg1{
+.dbg{
     height: 200px;
 }
 
@@ -26,5 +26,9 @@
     background-color: #2C3E50;
 }
 .bg_green{
+    background-color: #1ABC9C;
+}
 
+.avatar{
+    width: 200px;
 }
